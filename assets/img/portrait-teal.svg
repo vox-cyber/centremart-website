@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg-teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF7ED"/><stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="shirt-teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F766E"/><stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+    <linearGradient id="skin-teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5DEB3"/><stop offset="1" stop-color="#F7C89F"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="340" fill="url(#bg-teal)"/>
+  <!-- shoulders -->
+  <path d="M40 340 Q40 240 150 220 Q260 240 260 340 Z" fill="url(#shirt-teal)"/>
+  <!-- neck -->
+  <rect x="128" y="170" width="44" height="60" rx="12" fill="url(#skin-teal)"/>
+  <!-- head -->
+  <ellipse cx="150" cy="130" rx="60" ry="70" fill="url(#skin-teal)"/>
+  <!-- hair -->
+  <path d="M92 105 Q100 60 150 55 Q205 60 210 110 Q210 90 190 82 Q170 74 150 76 Q120 78 105 92 Z" fill="#3B2416"/>
+  <!-- collar -->
+  <path d="M120 220 L150 245 L180 220 L175 260 L150 260 L125 260 Z" fill="#ffffff" opacity=".9"/>
+  <!-- name tag / apron accent -->
+  <rect x="122" y="270" width="56" height="14" rx="3" fill="#ffffff"/>
+  <text x="150" y="282" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#0F766E">D</text>
+</svg>
