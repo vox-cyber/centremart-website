@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vox-cyber.github.io/centremart-website/sitemap.xml
